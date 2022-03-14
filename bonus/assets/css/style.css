@@ -12,14 +12,38 @@
 
 #site_main {
   height: 100vh;
+  
 }
 
 /* #region Sidebar */
 
 .sidebar {
   background-color: rgba(33, 33, 33, 1);
+  height: 100%;
+  overflow: hidden;
 }
 
+.img_logo{
+    width: 100%;
+}
+
+.nav{
+    overflow: auto;
+    height: calc(100% - 80px);
+}
+
+[class^="menu"]{
+    border-bottom: 1px solid gray;
+}
+
+[class^="menu"] a{
+    color: white;
+}
+
+[class^="menu"] h4{
+    color: white;
+    text-transform: uppercase;
+}
 /* #endregion Sidebar */
 
 /* #region Body */
@@ -31,7 +55,7 @@
 
 /* #region Header */
 
-.header_body{
+.body_header{
     height: 140px;
 }
 

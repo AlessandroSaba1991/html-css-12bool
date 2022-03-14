@@ -72,6 +72,10 @@ img{
   padding: 1rem;
 }
 
+.ptb_1{
+    padding: 1rem 0;
+}
+
 /* #endregion Padding */
 
 /* #region Geometric */
@@ -81,6 +85,18 @@ img{
 }
 
 /* #endregion Geometric */
+
+/* #region Size */
+
+.h_100{
+    height: 100%;
+}
+
+.w_100{
+    width: 100%;
+}
+
+/* #endregion Size */
 
 /* #endregion Utility */
 
