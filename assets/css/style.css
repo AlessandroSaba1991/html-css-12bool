@@ -1,5 +1,9 @@
 /* #region Main */
 
+section > h1{
+    margin: 1rem 0;
+}
+
 [class^="col"]{
     background-color: rgb(10, 91, 240);
     padding: 1rem 1rem;
