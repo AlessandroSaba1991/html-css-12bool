@@ -14,9 +14,21 @@ ul {
   list-style: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* #endregion Common */
 
 /* #region Utility */
+
+/* #region Position */
+
+.p_relative{
+    position: relative;
+}
+
+/* #endregion Position */
 
 /* #region Flex */
 
