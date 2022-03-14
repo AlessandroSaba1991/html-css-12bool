@@ -32,6 +32,10 @@ ul {
   justify-content: center;
 }
 
+.content_center{
+    align-content: center;
+}
+
 /* #endregion Flex */
 
 /* #region Typography */
@@ -72,16 +76,12 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0 -1rem;
 }
 
 /* #region Col */
 
-[class^="col"] {
-  padding: 0 1rem;
-}
 
-[class*="col-"] {
+[class*="col"] {
   flex: 0 0 auto;
 }
 
@@ -206,7 +206,7 @@ ul {
 /* #region Media */
 
 @media screen and (min-width: 576px) {
-    
+
   /* #region Col */
 
   .col_sm_1 {

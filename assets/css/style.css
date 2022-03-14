@@ -1,0 +1,18 @@
+/* #region Main */
+
+[class^="col"]{
+    background-color: rgb(10, 91, 240);
+    padding: 1rem 1rem;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row>[class^="col"].nested{
+    background-color: green;
+    border: 1px solid rgb(10, 91, 240);
+}
+
+/* #endregion Main */
