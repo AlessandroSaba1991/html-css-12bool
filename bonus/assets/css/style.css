@@ -1,0 +1,92 @@
+
+/* #region Utility */
+
+.btn{
+    background-color: rgba(55, 55, 55, 1);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    margin: 0 1rem;
+}
+
+/* #region Main */
+
+#site_main {
+  height: 100vh;
+}
+
+/* #region Sidebar */
+
+.sidebar {
+  background-color: rgba(33, 33, 33, 1);
+}
+
+/* #endregion Sidebar */
+
+/* #region Body */
+
+.body{
+    background-color: rgba(32, 32, 32, 1);
+}
+
+
+/* #region Header */
+
+
+
+/* #region Menu_central */
+
+.menu_central{
+    color: white;
+}
+
+.search_bar,
+.search_vocal{
+    background-color: black;
+}
+
+
+.search_bar{
+    width: 35%;
+    border: 1px solid gray;  
+}
+
+.search_icon{
+    width: 50px; 
+    background-color: gray;
+}
+
+.search_vocal{
+    height: 40px;
+    width: 40px;
+    margin-left: 1rem;
+}
+
+/* #endregion Menu_central */
+
+/* #region Menu_right */
+
+.menu_right>a{
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 18px;
+}
+
+.user{
+    background-color: chartreuse;
+    height: 25px;
+    width: 25px;
+}
+
+/* #endregion Menu_right */
+
+.body_header_bottom{
+    
+    border-top: 1px solid gray;
+}
+
+/* #endregion Header */
+
+/* #endregion Body */
+
+/* #endregion Main */
